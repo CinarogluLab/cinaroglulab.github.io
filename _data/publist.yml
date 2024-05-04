@@ -1,0 +1,49 @@
+- title: "Computed Protein–Protein Enthalpy Signatures as a Tool for Identifying Conformation Sampling Problems"
+  image: pub1.jpeg
+  description: We carefully assembled and curated a set of 11 protein–peptide complexes where there is structural and isothermal titration calorimetry data available and then computed the absolute enthalpy of binding. 
+  authors: Süleyman Selim Çınaroğlu, Philip C Biggin
+  link:
+    url: https://doi.org/10.1021/acs.jcim.3c01041
+    display:  J. Chem. Inf. Model. 2023, 63, 19, 6095–6108
+  highlight: 1
+  news1:
+
+- title: "The role of loop dynamics in the prediction of ligand–protein binding enthalpy"
+  image: pub2.jpeg
+  description: We evaluated the performance of absolute enthalpy of binding calculations using molecular dynamics simulation for ten inhibitors against a member of the bromodomain family, BRD4-1, against isothermal titration calorimetry data.
+  authors: Süleyman Selim Çınaroğlu, Philip C Biggin
+  link:
+    url: https://doi.org/10.1039/D2SC06471E
+    display:  Chem. Sci., 2023, 14, 6792-6805
+  highlight: 1
+  news1:
+
+- title: "Evaluating the performance of water models with host–guest force fields in binding enthalpy calculations for cucurbit [7] uril–guest systems"
+  image: pub3.jpeg
+  description: We present absolute enthalpy calculations using the multibox approach on a set of 25 cucurbit[7]uril–guest pairs. Eight water models were considered (TIP3P, TIP4P, TIP4P-Ew, SPC, SPC/E, OPC, TIP5P, Bind3P), along with five force fields commonly used in the literature (GAFFv1, GAFFv2, CGenFF, Parsley, and SwissParam).
+  authors: Süleyman Selim Çınaroğlu, Philip C Biggin
+  link:
+    url: https://doi.org/10.1021/acs.jpcb.0c11383
+    display:  J. Phys. Chem. B 2021, 125, 6, 1558–1567
+  highlight: 1
+  news1:
+  
+- title: "Comprehensive evaluation of the MM-GBSA method on bromodomain-inhibitor sets"
+  image: pub4.jpeg
+  description: This study reports an extensive testing of different MM-GBSA scoring schemes on two bromodomain (BRD) datasets. The first set is composed of 24 BRPF1 complexes, and the second one is a nonredundant set constructed from the PDBbind and composed of 28 diverse BRD complexes. A variety of MM-GBSA schemes were analyzed to evaluate the performance of four protocols with different numbers of minimization and MD steps, 10 different force fields and three different water models.
+  authors: Süleyman Selim Çınaroğlu, Emel Timuçin
+  link:
+    url: https://doi.org/10.1093/bib/bbz143
+    display:  Briefings in Bioinformatics, 21(6), 2020, 2112–2125
+  highlight: 1
+  news1:  
+  
+- title: "Comparative assessment of seven docking programs on a nonredundant metalloprotein subset of the PDBbind refined"
+  image: pub5.jpeg
+  description: This study reports comparative assessment of seven docking programs (AutoDock4, AutoDock4Zn, AutoDock Vina, Quick Vina 2, LeDock, PLANTS, and UCSF DOCK6) on a diverse metalloprotein set which was compiled for this study. The refined set of the PDBbind (2017) was screened to gather 710 complexes with metal ion(s) closely located to the ligands (<4 Å). 
+  authors: Süleyman Selim Çınaroğlu, Emel Timuçin
+  link:
+    url: https://doi.org/10.1021/acs.jcim.9b00346
+    display:  J. Chem. Inf. Model. 2019, 59, 9, 3846–3859
+  highlight: 1
+  news1:    
