@@ -11,8 +11,6 @@ permalink: /publications/
 
 ## Highlights
 
-(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com.tr/citations?user=jCq1QN8AAAAJ&hl), [Web of Science](https://www.webofscience.com/wos/author/record/37523))
-
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
@@ -54,9 +52,4 @@ permalink: /publications/
 
 ## Full List
 
-{% for publi in site.data.publist %}
-
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
+For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com.tr/citations?user=jCq1QN8AAAAJ&hl), [Web of Science](https://www.webofscience.com/wos/author/record/37523)
