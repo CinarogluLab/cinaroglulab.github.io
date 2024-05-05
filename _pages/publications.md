@@ -52,4 +52,4 @@ permalink: /publications/
 
 ## Full List
 
-For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com.tr/citations?user=jCq1QN8AAAAJ&hl), [Web of Science](https://www.webofscience.com/wos/author/record/37523)
+For a full list, go to [Google Scholar](https://scholar.google.com.tr/citations?user=jCq1QN8AAAAJ&hl), [Web of Science](https://www.webofscience.com/wos/author/record/37523)
