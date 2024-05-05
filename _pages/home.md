@@ -10,7 +10,7 @@ permalink: /
 
 We concentrate on areas such as protein-ligand interactions, structure-based drug design, and the application of QSAR and bioinformatics techniques. A fundamental component of our research involves using molecular dynamics simulations to predict and analyze the three-dimensional structures of macromolecular complexes. This is crucial for understanding structure-activity relationships and assists in the design of effective ligands.
 
-Our collaborative endeavours leverage cutting-edge computational technologies to model and predict molecular interactions within biological systems. This work is instrumental in advancing the discovery and refinement of therapeutic agents for conditions like cancer and neurological disorders. By merging molecular modelling, medicinal chemistry, and structural biology, our integrated approach aims to develop and enhance novel small molecules that target specific molecular functions, making a significant impact on the field of drug discovery.</div>
+Our collaborative endeavours leverage cutting-edge computational technologies to model and predict molecular interactions within biological systems. This work is instrumental in advancing the discovery and refinement of therapeutic agents for conditions like cancer and neurological disorders. By merging molecular modelling, medicinal chemistry, and structural biology, our integrated approach aims to develop and enhance novel small molecules that target specific molecular functions, making a significant impact on the field of drug discovery.
 
 <b>See our [Research page](research)</b> for more details and up-to-date information!
 
