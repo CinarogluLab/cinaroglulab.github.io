@@ -17,5 +17,6 @@ Our collaborative endeavours leverage cutting-edge computational technologies to
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/muh.png" style="width: 100px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
 </figure>
