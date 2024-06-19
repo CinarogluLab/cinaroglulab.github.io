@@ -8,6 +8,7 @@ permalink: /research/
 
 ## Research in Molecular Modeling & Drug Discovery
 
+
 **Biomolecular Dynamics**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
