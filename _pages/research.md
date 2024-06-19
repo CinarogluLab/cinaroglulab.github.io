@@ -8,7 +8,7 @@ permalink: /research/
 
 ## Research in Molecular Modeling & Drug Discovery
 
-**Bio-molecular Dynamics**
+**Biomolecular Dynamics**
 
 The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
 
