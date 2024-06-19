@@ -20,11 +20,24 @@ The internal motions of biomolecules are crucial for their biological function. 
 </div>
 
 <div style="flex: 0 0 auto;">
-
 <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg" alt="Biomolecular Dynamics" style="height: 200px;">
 
 </div>
 </div>
 
+**Computer-Aided Drug Discovery**
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+<div style="flex: 0 0 auto;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0004.png" alt="Biomolecular Dynamics" style="height: 200px;">
+</div>
+
+<div style="flex: 1; text-align: justify; margin-right: 20px;">
+
+CADD is a cornerstone of modern pharmaceutical research. It leverages computational techniques to expedite and optimize the identification and development of new therapeutic agents. By utilizing a combination of molecular modelling, simulations, and data analysis, CADD offers a powerful approach to tackle complex challenges in drug design, from target identification and validation to lead optimization and virtual screening. This interdisciplinary field holds immense promise in revolutionizing drug discovery pipelines and accelerating the delivery of novel treatments for various diseases. This integration of computational power into drug discovery reduces the need for costly physical experiments and enhances the precision and efficiency of developing new therapeutics.
+
+</div>
+</div>
 
 Our research highlights are summarized in the publications listed at <a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a> 
