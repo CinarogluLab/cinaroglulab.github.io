@@ -20,7 +20,7 @@ The internal motions of biomolecules are crucial for their biological function. 
 
 <div style="flex: 0 0 auto;">
 
-<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg" alt="Biomolecular Dynamics" style="max-width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg" alt="Biomolecular Dynamics" style="height: 50px;">
 
 </div>
 </div>
