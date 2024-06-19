@@ -15,8 +15,7 @@ permalink: /research/
         The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
     </div>
     <div style="flex: 0 0 auto; margin-left: 20px;">
-        <!-- Replace 'src' with the path to your image -->
-        <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg)" alt="Biomolecular Dynamics">
+        <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg" alt="Biomolecular Dynamics">
     </div>
 </div>
 
