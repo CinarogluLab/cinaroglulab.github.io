@@ -16,7 +16,7 @@ permalink: /research/
     </div>
     <div style="flex: 0 0 auto; margin-left: 20px;">
         <!-- Replace 'src' with the path to your image -->
-        <img src="[[path_to_your_image.jpg](https://github.com/CinarogluLab/cinaroglulab.github.io/blob/main/images/images-0003.jpeg)](https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg)" alt="Biomolecular Dynamics">
+        <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg)" alt="Biomolecular Dynamics">
     </div>
 </div>
 
