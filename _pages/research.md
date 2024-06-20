@@ -6,10 +6,10 @@ sitemap: false
 permalink: /research/
 ---
 
-## Research in Molecular Modeling & Drug Discovery
+## **Research in Molecular Modeling & Drug Discovery**
 Our lab harnesses the power of computational tools to unravel the mysteries of biomolecular dynamics and accelerate the discovery of therapeutic agents.
 
-**Biomolecular Dynamics**
+#### **Biomolecular Dynamics**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
@@ -29,7 +29,7 @@ The internal motions of biomolecules are crucial for their biological function. 
 </div>
 </div>
 
-**Computer-Aided Drug Discovery**
+#### **Computer-Aided Drug Discovery**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
@@ -48,7 +48,7 @@ CADD is a cornerstone of modern pharmaceutical research. It leverages computatio
 </div>
 
 
-**VirtualFlow Project**
+#### **VirtualFlow Project**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
