@@ -63,7 +63,7 @@ Our research group leverages host-guest systems' simplicity and efficiency to en
 </div>
 
 <div style="flex: 0 0 auto;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Cucurbit-6-uril_ActaCrystallB-Stru_1984_382.jpg" alt="Host-Guest" style="height: 200px;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0005.png" alt="Host-Guest" style="height: 200px;">
 </div>
 
 </div>
