@@ -18,8 +18,8 @@ Our lab harnesses the power of computational tools to unravel the mysteries of b
 The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
 
 
-> <h5>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h5>
-> <h5>Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.</h5>
+> <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h6>
+> <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.</h6>
 
 </div>
 
@@ -41,8 +41,8 @@ The internal motions of biomolecules are crucial for their biological function. 
 
 CADD is a cornerstone of modern pharmaceutical research. It leverages computational techniques to expedite and optimize the identification and development of new therapeutic agents. By utilizing a combination of molecular modelling, simulations, and data analysis, CADD offers a powerful approach to tackle complex challenges in drug design, from target identification and validation to lead optimization and virtual screening. This interdisciplinary field holds immense promise in revolutionizing drug discovery pipelines and accelerating the delivery of novel treatments for various diseases. This integration of computational power into drug discovery reduces the need for costly physical experiments and enhances the precision and efficiency of developing new therapeutics.
 
-> <h5>Çınaroğlu, S.S., & Timuçin, E. (2019). Journal of Chemical Information and Modeling, 59(9), 3846-3859.</h5>
-> <h5>Çınaroğlu, S.S., & Timuçin, E. (2020). Briefings in Bioinformatics, 21(6), 2112-2125.</h5>
+> <h6>Çınaroğlu, S.S., & Timuçin, E. (2019). Journal of Chemical Information and Modeling, 59(9), 3846-3859.</h6>
+> <h6>Çınaroğlu, S.S., & Timuçin, E. (2020). Briefings in Bioinformatics, 21(6), 2112-2125.</h6>
 
 </div>
 </div>
@@ -58,8 +58,8 @@ Our lab actively contributes to the VirtualFlow project, led by Dr. Christoph Go
 
 A key component of VirtualFlow is the VirtualFlow virtual screen (VFVS), a powerful tool designed to explore vast regions of chemical space in search of promising small-molecule binders. VFVS leverages high-performance computing resources, which continue to grow in availability and power, and innovative virtual screening databases like the Chemical Universe Databases, which house billions to trillions of compounds yet to be fully explored.
 
-> <h5>Gorgulla, C., Çınaroğlu, S.S., Fischer, P. D., Fackeldey, K., Wagner, G., & Arthanari, H. (2021). International Journal of Molecular Sciences, 22(11), 5807.</h5>
-> <h5>Gorgulla, C., Nigam, A., Koop, M., Çınaroğlu, S.S., S., Secker, C., Haddadnia, M., ... & Arthanari, H. (2023). bioRxiv, 2023-04.</h5>
+> <h6>Gorgulla, C., Çınaroğlu, S.S., Fischer, P. D., Fackeldey, K., Wagner, G., & Arthanari, H. (2021). International Journal of Molecular Sciences, 22(11), 5807.</h6>
+> <h6>Gorgulla, C., Nigam, A., Koop, M., Çınaroğlu, S.S., S., Secker, C., Haddadnia, M., ... & Arthanari, H. (2023). bioRxiv, 2023-04.</h6>
 
 </div>
 
