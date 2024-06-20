@@ -19,7 +19,6 @@ The internal motions of biomolecules are crucial for their biological function. 
 
 
 ><h5>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h5>
->
 ><h5>Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.</h5>
 
 </div>
