@@ -48,10 +48,33 @@ CADD is a cornerstone of modern pharmaceutical research. It leverages computatio
 </div>
 </div>
 
+#### **Host-Guest Chemistry**
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+<div style="flex: 1; text-align: justify; margin-right: 20px;">
+
+Host-guest systems emerge as pivotal models in our quest for precision in molecular dynamics (MD) simulations. They mirror the complexities of larger protein-ligand systems but demand far less computational power. Their binding affinities align closely with those observed in protein-ligand interactions, establishing them as ideal subjects for detailed molecular recognition studies.
+
+Our research group leverages host-guest systems' simplicity and efficiency to enhance molecular dynamics simulations' reliability. Through these models, we aim to advance our understanding and refine our application of force fields, ultimately improving the accuracy of our simulations across more demanding biological systems. This foundational work is crucial for pushing the boundaries of what's possible in computational molecular modelling.
+
+> <h6>Çınaroğlu, S.S., & Biggin, P.C. (2021). The Journal of Physical Chemistry B, 125(6), 1558-1567.</h6>
+
+</div>
+
+<div style="flex: 0 0 auto;">
+<img src="https://en.wikipedia.org/wiki/Host%E2%80%93guest_chemistry#/media/File:Cucurbit-6-uril_ActaCrystallB-Stru_1984_382.jpg" alt="Host-Guest" style="height: 200px;">
+</div>
+
+</div>
 
 #### **VirtualFlow Project**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+<div style="flex: 0 0 auto;">
+<img src="https://avatars.githubusercontent.com/u/41548685?s=200&v=4" alt="VirtualFlow Project" style="height: 200px;">
+</div>
 
 <div style="flex: 1; text-align: justify; margin-right: 20px;">
 
@@ -62,10 +85,6 @@ A key component of VirtualFlow is the VirtualFlow virtual screen (VFVS), a power
 > <h6>Gorgulla, C., Çınaroğlu, S.S., Fischer, P. D., Fackeldey, K., Wagner, G., & Arthanari, H. (2021). International Journal of Molecular Sciences, 22(11), 5807.</h6>
 > <h6>Gorgulla, C., Nigam, A., Koop, M., Çınaroğlu, S.S., S., Secker, C., Haddadnia, M., ... & Arthanari, H. (2023). bioRxiv, 2023-04.</h6>
 
-</div>
-
-<div style="flex: 0 0 auto;">
-<img src="https://avatars.githubusercontent.com/u/41548685?s=200&v=4" alt="VirtualFlow Project" style="height: 200px;">
 </div>
 
 </div>
