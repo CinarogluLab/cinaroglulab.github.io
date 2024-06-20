@@ -7,7 +7,7 @@ permalink: /research/
 ---
 
 ## **Research in Molecular Modeling & Drug Discovery**
-> ####  <span style="color:red"> Our lab harnesses the power of computational tools to unravel the mysteries of biomolecular dynamics and accelerate the discovery of therapeutic agents.</span>
+> #### Our lab harnesses the power of computational tools to unravel the mysteries of biomolecular dynamics and accelerate the discovery of therapeutic agents.
 
 
 #### **Biomolecular Dynamics**
