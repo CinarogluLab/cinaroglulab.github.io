@@ -17,11 +17,11 @@ Our lab harnesses the power of computational tools to unravel the mysteries of b
 
 The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
 
-<h5>
->Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.
+
+><h5>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h5>
 >
->Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.
-</h5>
+><h5>Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.</h5>
+
 </div>
 
 <div style="flex: 0 0 auto;">
@@ -42,9 +42,9 @@ The internal motions of biomolecules are crucial for their biological function. 
 
 CADD is a cornerstone of modern pharmaceutical research. It leverages computational techniques to expedite and optimize the identification and development of new therapeutic agents. By utilizing a combination of molecular modelling, simulations, and data analysis, CADD offers a powerful approach to tackle complex challenges in drug design, from target identification and validation to lead optimization and virtual screening. This interdisciplinary field holds immense promise in revolutionizing drug discovery pipelines and accelerating the delivery of novel treatments for various diseases. This integration of computational power into drug discovery reduces the need for costly physical experiments and enhances the precision and efficiency of developing new therapeutics.
 
->Çınaroğlu, S.S., & Timuçin, E. (2019). Journal of Chemical Information and Modeling, 59(9), 3846-3859.
+><h5>Çınaroğlu, S.S., & Timuçin, E. (2019). Journal of Chemical Information and Modeling, 59(9), 3846-3859.</h5>
 >
->Çınaroğlu, S.S., & Timuçin, E. (2020). Briefings in Bioinformatics, 21(6), 2112-2125.
+><h5>Çınaroğlu, S.S., & Timuçin, E. (2020). Briefings in Bioinformatics, 21(6), 2112-2125.</h5>
 
 </div>
 </div>
