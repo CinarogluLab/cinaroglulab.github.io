@@ -17,9 +17,11 @@ Our lab harnesses the power of computational tools to unravel the mysteries of b
 
 The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
 
+<h5>
 >Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.
 >
 >Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.
+</h5>
 </div>
 
 <div style="flex: 0 0 auto;">
@@ -58,9 +60,9 @@ Our lab actively contributes to the VirtualFlow project, led by Dr. Christoph Go
 
 A key component of VirtualFlow is the VirtualFlow virtual screen (VFVS), a powerful tool designed to explore vast regions of chemical space in search of promising small-molecule binders. VFVS leverages high-performance computing resources, which continue to grow in availability and power, and innovative virtual screening databases like the Chemical Universe Databases, which house billions to trillions of compounds yet to be fully explored.
 
->######Gorgulla, C., Çınaroğlu, S.S., Fischer, P. D., Fackeldey, K., Wagner, G., & Arthanari, H. (2021). International Journal of Molecular Sciences, 22(11), 5807.
+>Gorgulla, C., Çınaroğlu, S.S., Fischer, P. D., Fackeldey, K., Wagner, G., & Arthanari, H. (2021). International Journal of Molecular Sciences, 22(11), 5807.
 >
->######Gorgulla, C., Nigam, A., Koop, M., Çınaroğlu, S.S., S., Secker, C., Haddadnia, M., ... & Arthanari, H. (2023). bioRxiv, 2023-04.
+>Gorgulla, C., Nigam, A., Koop, M., Çınaroğlu, S.S., S., Secker, C., Haddadnia, M., ... & Arthanari, H. (2023). bioRxiv, 2023-04.
 
 </div>
 
