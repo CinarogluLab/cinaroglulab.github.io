@@ -33,7 +33,7 @@ The internal motions of biomolecules are crucial for their biological function. 
 <div style="display: flex; flex-wrap: wrap;">
 
 <div style="flex: 1;">
-<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0004.png" alt="Computer-Aided Drug Discovery" style="width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0004.png" alt="Computer-Aided Drug Discovery" style="width: 100%; height: auto;margin-right: 20px;">
 </div>
 
 <div style="flex: 3; text-align: justify; margin-right: 20px;">
@@ -68,7 +68,7 @@ Our research group leverages host-guest systems' simplicity and efficiency to en
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
 
-<div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+<div style="flex: 1; display: flex; align-items: center; justify-content: center;margin-right: 20px;">
 <img src="https://community.virtual-flow.org/uploads/default/original/1X/980a69707fd8f27ca3f66e5e6373a110ef4cae95.png" alt="VirtualFlow Project" style="width: 100%; height: auto;">
 </div>
 
