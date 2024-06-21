@@ -71,7 +71,7 @@ Our research group leverages host-guest systems' simplicity and efficiency to en
 <div style="display: flex; flex-wrap: wrap;">
 
 <div style="flex: 1;">
-<img src="https://avatars.githubusercontent.com/u/41548685?s=200&v=4" alt="VirtualFlow Project" style="width: 100%; height: auto;">
+<img src="https://community.virtual-flow.org/uploads/default/original/1X/980a69707fd8f27ca3f66e5e6373a110ef4cae95.png" alt="VirtualFlow Project" style="width: 100%; height: auto;">
 </div>
 
 <div style="flex: 3; text-align: justify; margin-right: 20px;">
