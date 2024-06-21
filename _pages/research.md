@@ -13,22 +13,19 @@ permalink: /research/
 
 #### **Biomolecular Dynamics**
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+<div style="display: flex; flex-wrap: wrap;">
 
-<div style="flex: 1; text-align: justify; margin-right: 20px;">
-
+<div style="flex: 4; text-align: justify; margin-right: 20px;">
 The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
-
 
 > <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h6>
 > <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.</h6>
-
 </div>
 
-<div style="flex: 0 0 auto;">
-<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg" alt="Biomolecular Dynamics" style="height: 200px;">
-
+<div style="flex: 1;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0003.jpeg" alt="Biomolecular Dynamics" style="width: 100%; height: auto;">
 </div>
+
 </div>
 
 #### **Computer-Aided Drug Discovery**
