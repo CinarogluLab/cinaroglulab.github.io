@@ -55,7 +55,7 @@ CADD is a cornerstone of modern pharmaceutical research. It leverages computatio
 
 Host-guest systems emerge as pivotal models in our quest for precision in molecular dynamics (MD) simulations. They mirror the complexities of larger protein-ligand systems but demand far less computational power. Their binding affinities align closely with those observed in protein-ligand interactions, establishing them as ideal subjects for detailed molecular recognition studies.
 
-Our research group leverages host-guest systems' simplicity and efficiency to enhance molecular dynamics simulations' reliability. Through these models, we aim to advance our understanding of molecular interactions, ultimately improving the accuracy of our simulations across more demanding biological systems. This foundational work is crucial for pushing the boundaries of what's possible in computational molecular modelling.
+Our research group leverages host-guest systems' simplicity and efficiency to enhance the reliability of molecular dynamics simulations. Using these systems, we aim to advance our understanding of molecular interactions, ultimately improving the accuracy of our simulations across more demanding biological systems. This foundational work is crucial for pushing the boundaries of what's possible in computational molecular modelling.
 - <h6>Çınaroğlu, S.S., & Biggin, P.C. (2021). The Journal of Physical Chemistry B, 125(6), 1558-1567.</h6>
 
 </div>
