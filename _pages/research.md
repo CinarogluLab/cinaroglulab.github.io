@@ -36,7 +36,7 @@ The internal motions of biomolecules are crucial for their biological function. 
 <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0004.png" alt="Computer-Aided Drug Discovery" style="width: 100%; height: auto;">
 </div>
 
-<div style="flex: 3; text-align: justify; margin-lef: 20px;">
+<div style="flex: 3; text-align: justify; margin-left: 20px;">
 
 CADD is a cornerstone of modern pharmaceutical research. It leverages computational techniques to expedite and optimize the identification and development of new therapeutic agents. By utilizing a combination of molecular modelling, simulations, and data analysis, CADD offers a powerful approach to tackle complex challenges in drug design, from target identification and validation to lead optimization and virtual screening. This interdisciplinary field holds immense promise in revolutionizing drug discovery pipelines and accelerating the delivery of novel treatments for various diseases. This integration of computational power into drug discovery reduces the need for costly physical experiments and enhances the precision and efficiency of developing new therapeutics.
 - <h6>Çınaroğlu, S.S., & Timuçin, E. (2019). Journal of Chemical Information and Modeling, 59(9), 3846-3859.</h6>
