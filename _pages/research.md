@@ -11,12 +11,16 @@ permalink: /research/
 
 
 
-#### **Biomolecular Dynamics**
+#### **Biomolecular Structure and Dynamics**
 
 <div style="display: flex; flex-wrap: wrap;">
 
 <div style="flex: 3; text-align: justify; margin-right: 20px;">
-The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
+Our research is driven by the understanding that the behaviour and functionality of biological systems are intrinsically linked to their structural and dynamic properties. Utilizing molecular dynamics simulations, we explore the intricate organization of biomolecules and macromolecular complexes and the interactions that define biological systems at the molecular level. These biomolecules exhibit essential movements that are crucial to their function. By employing sophisticated simulation techniques, we create comprehensive models that capture these dynamics over time scales from picoseconds to milliseconds. These detailed models are instrumental in investigating how external factors, such as the presence of ligands or the impact of genetic mutations, influence biomolecular behaviour. Our research focuses on decoding the complex processes of structural dynamics that are fundamental to cellular signalling and regulatory mechanisms.
+
+By leveraging the power of high-performance computational simulations, extensive database analyses, and statistical mechanics principles, we aim to elucidate the atomistic details of biomolecular motions. Understanding these principles helps us to dissect the underlying mechanisms that govern the function and dynamics of biomolecules.
+
+We are dedicated to solving pressing health challenges, including fighting antibiotic resistance and developing more effective treatments for neurodegenerative conditions, cancer, and viral diseases. Our goal is to transform fundamental scientific discoveries into actionable medical solutions.
   
 - <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h6>
 - <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Chemical Science, 14(24), 6792-6805.</h6>
