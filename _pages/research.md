@@ -40,7 +40,9 @@ By leveraging the power of high-performance computational simulations, extensive
 
 <div style="flex: 3; text-align: justify; margin-left: 20px;">
 
-CADD is a cornerstone of modern pharmaceutical research. It leverages computational techniques to expedite and optimize the identification and development of new therapeutic agents. By utilizing a combination of molecular modelling, simulations, and data analysis, CADD offers a powerful approach to tackle complex challenges in drug design, from target identification and validation to lead optimization and virtual screening. This interdisciplinary field holds immense promise in revolutionizing drug discovery pipelines and accelerating the delivery of novel treatments for various diseases. This integration of computational power into drug discovery reduces the need for costly physical experiments and enhances the precision and efficiency of developing new therapeutics.
+We leverage advanced computational techniques to enhance the drug discovery process. Our work integrates molecular modelling, dynamic simulations, and data analytics to accelerate the identification and optimization of new therapeutic agents. We aim to build drug discovery pipelines by developing proprietary algorithms and models that increase the speed and reduce the costs of bringing new treatments to market.
+
+A core focus of our work is the application of structure-based drug design, leveraging protein-ligand interaction studies to inform the development of therapeutic agents. By integrating quantitative structure-activity relationship (QSAR) models and bioinformatics, we enhance our understanding of how molecular structures correlate with biological activity, which is crucial for designing more targeted and effective therapies.
 - <h6>Çınaroğlu, S.S., & Timuçin, E. (2019). Journal of Chemical Information and Modeling, 59(9), 3846-3859.</h6>
 - <h6>Çınaroğlu, S.S., & Timuçin, E. (2020). Briefings in Bioinformatics, 21(6), 2112-2125.</h6>
 
