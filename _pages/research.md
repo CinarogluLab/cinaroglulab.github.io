@@ -15,7 +15,7 @@ permalink: /research/
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<div style="flex: 4; text-align: justify; margin-right: 20px;">
+<div style="flex: 3; text-align: justify; margin-right: 20px;">
 The internal motions of biomolecules are crucial for their biological function. Sophisticated molecular simulations are used to create detailed models of these movements, spanning timeframes from picoseconds to milliseconds. By analyzing these models, researchers gain insights into how external factors, such as the presence of ligands or mutations, affect biomolecular dynamics. This understanding is key to unravelling the complex mechanisms of structural dynamics, a fundamental process in cellular signalling and regulation.
 
 > <h6>Çınaroğlu, S.S., & Biggin, P.C. (2023). Journal of Chemical Information and Modeling, 63(19), 6095-6108.</h6>
@@ -30,13 +30,13 @@ The internal motions of biomolecules are crucial for their biological function. 
 
 #### **Computer-Aided Drug Discovery**
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+<div style="display: flex; flex-wrap: wrap;">
 
-<div style="flex: 0 0 auto;">
-<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0004.png" alt="Computer-Aided Drug Discovery" style="height: 200px;">
+<div style="flex: 1;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0004.png" alt="Computer-Aided Drug Discovery" style="width: 100%; height: auto;">
 </div>
 
-<div style="flex: 1; text-align: justify; margin-right: 20px;">
+<div style="flex: 3; text-align: justify; margin-right: 20px;">
 
 CADD is a cornerstone of modern pharmaceutical research. It leverages computational techniques to expedite and optimize the identification and development of new therapeutic agents. By utilizing a combination of molecular modelling, simulations, and data analysis, CADD offers a powerful approach to tackle complex challenges in drug design, from target identification and validation to lead optimization and virtual screening. This interdisciplinary field holds immense promise in revolutionizing drug discovery pipelines and accelerating the delivery of novel treatments for various diseases. This integration of computational power into drug discovery reduces the need for costly physical experiments and enhances the precision and efficiency of developing new therapeutics.
 
@@ -48,9 +48,9 @@ CADD is a cornerstone of modern pharmaceutical research. It leverages computatio
 
 #### **Host-Guest Chemistry**
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+<div style="display: flex; flex-wrap: wrap;">
 
-<div style="flex: 1; text-align: justify; margin-right: 20px;">
+<div style="flex: 3; text-align: justify; margin-right: 20px;">
 
 Host-guest systems emerge as pivotal models in our quest for precision in molecular dynamics (MD) simulations. They mirror the complexities of larger protein-ligand systems but demand far less computational power. Their binding affinities align closely with those observed in protein-ligand interactions, establishing them as ideal subjects for detailed molecular recognition studies.
 
@@ -60,21 +60,21 @@ Our research group leverages host-guest systems' simplicity and efficiency to en
 
 </div>
 
-<div style="flex: 0 0 auto;">
-<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0005.png" alt="Host-Guest" style="height: 250px;">
+<div style="flex: 1;">
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0005.png" alt="Host-Guest" style="width: 100%; height: auto;">
 </div>
 
 </div>
 
 #### **VirtualFlow Project**
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+<div style="display: flex; flex-wrap: wrap;">
 
-<div style="flex: 0 0 auto;">
-<img src="https://avatars.githubusercontent.com/u/41548685?s=200&v=4" alt="VirtualFlow Project" style="height: 200px;">
+<div style="flex: 1;">
+<img src="https://avatars.githubusercontent.com/u/41548685?s=200&v=4" alt="VirtualFlow Project" style="width: 100%; height: auto;">
 </div>
 
-<div style="flex: 1; text-align: justify; margin-right: 20px;">
+<div style="flex: 3; text-align: justify; margin-right: 20px;">
 
 Our lab actively contributes to the VirtualFlow project, led by Dr. Christoph Gorgulla. VirtualFlow is a free, open-source initiative to facilitate widespread use and dynamic development within the scientific community. It encourages researchers to join the project and contribute to enhancing existing features and expanding its functionality. For more information and resources, please visit the official VirtualFlow homepage at <https://www.virtual-flow.org>.
 
