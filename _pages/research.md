@@ -68,7 +68,7 @@ Our research group leverages host-guest systems' simplicity and efficiency to en
 
 </div>
 
-#### **VirtualFlow Project**
+#### **VirtualFlow Türkiye**
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
 
