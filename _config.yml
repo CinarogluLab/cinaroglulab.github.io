@@ -43,5 +43,7 @@ kramdown:
 
 # Plug-ins
 plugins_dir:
+
+google_analytics: G-K3CKDLXBSH
   - jekyll-sitemap
   - jekyll-feed
