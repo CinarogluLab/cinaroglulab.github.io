@@ -27,5 +27,11 @@ permalink: /
   <a href="https://biyomuhendislik.ege.edu.tr/" target="_blank" rel="noopener noreferrer">
     <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
   </a>
+    <a href="https://www.truba.gov.tr/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="width: 100px">
+  </a>
+    <a href="https://www.uhem.itu.edu.tr/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="width: 100px">
+  </a>
 </figure>
 
