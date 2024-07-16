@@ -21,7 +21,7 @@ permalink: /
 <b>See our [Research page](research)</b> for more details and up-to-date information!
 
 <figure class="fourth">
-  <div class="row">  
+  <div>  
       <a href="https://ege.edu.tr/" target="_blank" rel="noopener noreferrer">
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
       </a>
@@ -29,7 +29,7 @@ permalink: /
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
       </a>
   </div>
-  <div class="row">  
+  <div>  
       <a href="https://www.truba.gov.tr/" target="_blank" rel="noopener noreferrer">
         <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="height: 100px">
       </a>
