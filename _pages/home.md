@@ -22,9 +22,9 @@ permalink: /
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
+  <a href="https://ege.edu.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px"> </a>
+  <a href="https://biyomuhendislik.ege.edu.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px"> </a>
   <br>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="height: 75px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="height: 75px">
+  <a href="https://www.truba.gov.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="height: 75px"> </a>
+  <a href="https://www.uhem.itu.edu.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="height: 75px"> </a>
 </figure>
