@@ -25,6 +25,6 @@ permalink: /
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
   <br>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="height: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="height: 100px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="height: 75px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="height: 75px">
 </figure>
