@@ -21,6 +21,11 @@ permalink: /
 <b>See our [Research page](research)</b> for more details and up-to-date information!
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
+  <a href="https://ege.edu.tr/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
+  </a>
+  <a href="https://biyomuhendislik.ege.edu.tr/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
+  </a>
 </figure>
+
