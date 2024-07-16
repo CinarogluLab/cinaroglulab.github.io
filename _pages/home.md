@@ -21,17 +21,29 @@ permalink: /
 <b>See our [Research page](research)</b> for more details and up-to-date information!
 
 <figure class="fourth">
-  <a href="https://ege.edu.tr/" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
-  </a>
-  <a href="https://biyomuhendislik.ege.edu.tr/" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
-  </a>
-    <a href="https://www.truba.gov.tr/" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="width: 100px">
-  </a>
-    <a href="https://www.uhem.itu.edu.tr/" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="width: 100px">
-  </a>
+  <div class="row">  
+    <div class="col-sm-6">
+      <a href="https://ege.edu.tr/" target="_blank" rel="noopener noreferrer">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" style="width: 100px">
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <a href="https://biyomuhendislik.ege.edu.tr/" target="_blank" rel="noopener noreferrer">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" style="width: 100px">
+      </a>
+    </div>
+  </div>
+  <div class="row">  
+    <div class="col-sm-6">
+      <a href="https://www.truba.gov.tr/" target="_blank" rel="noopener noreferrer">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" style="height: 100px">
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <a href="https://www.uhem.itu.edu.tr/" target="_blank" rel="noopener noreferrer">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" style="height: 100px">
+      </a>
+    </div>
+  </div>
 </figure>
 
