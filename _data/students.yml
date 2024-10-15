@@ -7,6 +7,16 @@
 #  education2:
 #  education3:
 #  education4:
+- name: "İpek Sarıbal"
+  photo: unknown.png
+  info: M.Sc. Student
+  email: .
+  number_educ: 0
+  education1: B.Sc. Molecular Biology and Genetics from <a href="https://www.mu.edu.tr/">Mugla Sıtkı Kocman University</a>
+  education2:
+  education3:
+  education:
+
 - name: "This could be you !"
   photo: unknown.png
   info: See <a href="/CinarogluLab/vacancies">openings</a> for more info
@@ -15,4 +25,4 @@
   education1:
   education2:
   education3:
-  education4:
+  education:
