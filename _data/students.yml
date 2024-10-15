@@ -10,7 +10,6 @@
 - name: "İpek Sarıbal"
   photo: unknown.png
   info: M.Sc. Student
-  email: .
   number_educ: 1
   education1: B.Sc. Molecular Biology and Genetics from <a href="https://www.mu.edu.tr/">Mugla Sıtkı Kocman University</a>
   education2:
@@ -20,7 +19,6 @@
 - name: "This could be you !"
   photo: rock.jpg
   info: See <a href="/CinarogluLab/vacancies">openings</a> for more info
-  email: s.selim.c@gmail.com
   number_educ: 0
   education1:
   education2:
