@@ -10,7 +10,7 @@ permalink: /team/
 
  **We are often looking for new PhD students, Postdocs, Professionals and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-## Staff
+## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
