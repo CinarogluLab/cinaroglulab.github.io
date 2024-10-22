@@ -16,8 +16,8 @@
   education3:
   education:
 
-- name: "Abdülkadir Kaya"
-  photo: unknown.png
+- name: "Birsen Yurtdaş"
+  photo: birsen.jpg
   info: B.Eng. Student
   number_educ: 0
   education1: 
@@ -25,60 +25,15 @@
   education3:
   education:
 
-- name: "Abdurrahman Erkarslan"
-  photo: unknown.png
+- name: "Ece Yiğit"
+  photo: ece.jpg
   info: B.Eng. Student
   number_educ: 0
   education1: 
   education2:
   education3:
   education:  
-
- - name: "Alican"
-  photo: unknown.png
-  info: B.Eng. Student
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education:
-
- - name: "Ege Dönmez"
-  photo: unknown.png
-  info: B.Eng. Student
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education:
-
- - name: "Elif Naz Özyurt"
-  photo: unknown.png
-  info: B.Eng. Student
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education:
-
- - name: "Senem Tulumcu"
-  photo: unknown.png
-  info: B.Eng. Student
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education:
-
- - name: "Yağmur Çavaş"
-  photo: unknown.png
-  info: B.Eng. Student
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education:
-  
+ 
 - name: "This could be you !"
   photo: rock.jpg
   info: See <a href="/CinarogluLab/vacancies">openings</a> for more info
