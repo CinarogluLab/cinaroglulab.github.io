@@ -33,7 +33,25 @@
   education2:
   education3:
   education:  
- 
+
+- name: "Hatice Zülal Bulut"
+  photo: zulal.jpg
+  info: B.Eng. Student
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education:
+
+- name: "Rojin Alpaslan"
+  photo: rojin.jpg
+  info: B.Eng. Student
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education:
+  
 - name: "This could be you !"
   photo: rock.jpg
   info: See <a href="/CinarogluLab/vacancies">openings</a> for more info
