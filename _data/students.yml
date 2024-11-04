@@ -8,7 +8,7 @@
 #  education3:
 #  education4:
 - name: "İpek Sarıbal"
-  photo: unknown.png
+  photo: ipek.jpg
   info: M.Sc. Student
   number_educ: 1
   education1: B.Sc. Molecular Biology and Genetics from <a href="https://www.mu.edu.tr/">Mugla Sıtkı Kocman University</a>
@@ -18,6 +18,15 @@
 
 - name: "Ege Altun"
   photo: ege_altun.jpg
+  info: B.Eng. Student
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education:
+
+- name: "Yağmur Çavaş"
+  photo: yagmur.jpg
   info: B.Eng. Student
   number_educ: 0
   education1: 
