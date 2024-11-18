@@ -8,6 +8,8 @@ permalink: /vacancies
 
 # Open positions
 
+We are looking for master’s students to join our TÜBİTAK 3501 project as scholarship holders.
+
 We are always looking for new group members with passion, talent, and grit! If you are passionate about Molecular Modeling & Drug Discovery, consider joining our lab at ⁦Ege University.
 
 ## Postdoctoral Research Associates
