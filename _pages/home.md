@@ -9,6 +9,7 @@ permalink: /
   
 <div style="display: flex; flex-direction: column; align-items: flex-start;">
   <div style="text-align: justify;">
+    <img src="https://github.com/CinarogluLab/cinaroglulab.github.io/blob/main/images/groupphoto1.jpg" alt="Group Photo" style="width: 100%; height: auto; margin-top: 10px;">
   <b>CinarogluLab</b> at the <a href="https://ege.edu.tr/">Ege University</a> focuses on examining the structure and dynamics of biomolecular systems to gain insights into their functional mechanisms. Utilizing computational methods, we strive to decode the biophysical properties of biomolecules and use this information to design innovative chemical entities to combat human diseases. Our methodologies encompass a variety of physics-based techniques, including molecular dynamics simulations, enhanced sampling, and free energy calculations. Additionally, we integrate Markov State models, machine learning for pharmacological predictions, molecular docking, and homology/loop modelling.
 </div>
   <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0006.png" alt="Biomolecular Dynamics" style="width: 100%; height: auto; margin-top: 10px;">
