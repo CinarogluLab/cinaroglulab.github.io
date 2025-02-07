@@ -18,9 +18,9 @@
 
 - name: "Ege Altun"
   photo: ege_altun.jpg
-  info: B.Eng. Student
-  number_educ: 0
-  education1: 
+  info: M.Eng. Student
+  number_educ: 1
+  education1: B.Eng. Bioengineering from <a href="https://www.ege.edu.tr/">Ege University</a>
   education2:
   education3:
   education:
