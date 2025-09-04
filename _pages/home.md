@@ -1,7 +1,8 @@
 ---
 title: "CinarogluLab"
 layout: homelay
-excerpt: "Laboratory for Molecular Modeling & Drug Discovery"
+excerpt: "Laboratory for Molecular Modeling & Drug Design"
+"
 sitemap: false
 permalink: /
 ---
