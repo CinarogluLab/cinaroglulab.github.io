@@ -25,6 +25,15 @@
   education3:
   education:
 
+- name: "Asude Sezer"
+  photo: rock.jpg
+  info: M.Eng. Student
+  number_educ: 1
+  education1: B.Eng. Bioengineering from <a href="https://www.ege.edu.tr/">Ege University</a>
+  education2:
+  education3:
+  education:
+  
 - name: "Birsen Yurtdaş"
   photo: birsen.jpg
   info: B.Eng. Student
