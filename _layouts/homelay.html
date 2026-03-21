@@ -2,14 +2,28 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-8">
-        <h2><b><span style="color:blue"><img src="{{ site.url }}{{ site.baseurl }}/images/protein-emoji.png" alt="Logo" style="width: 75px; height: auto;">  CinarogluLab</span></b> at Ege University</h2>
-        <h3 style="color:#FF0000;"><i>Laboratory for Molecular Modeling & Drug Discovery</i></h3>
-	{{ content }}
+<div class="row">
+  <div class="col-md-8 col-sm-12">
+    <div class="modern-hero">
+      <div class="lab-title">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/protein-emoji.png" alt="Protein Logo" style="width: 60px; height: auto; margin:0;">
+        <h2>CinarogluLab at Ege University</h2>
+      </div>
+      <h3 class="lab-subtitle">Laboratory for Molecular Modeling & Drug Discovery</h3>
+      {{ content }}
+    </div>
   </div>
-  <div id="newsid" class="col-sm-4" >
-	{% include news.html %}
+  
+  <div class="col-md-4 col-sm-12">
+    <div class="modern-card" id="newsid">
+      <h3 style="margin-top:0; color: var(--color-primary); font-family: var(--font-heading);">Latest News</h3>
+      {% include news.html %}
+    </div>
+    
+    <div class="modern-card">
+      <h3 style="margin-top:0; color: var(--color-secondary); font-family: var(--font-heading);">Twitter Feed</h3>
+      <a class="twitter-timeline" data-height="400" href="https://twitter.com/CinarogluLab?ref_src=twsrc%5Etfw">Tweets by CinarogluLab</a> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
   </div>
-<div id="newsid" class="col-sm-4" >
-<a class="twitter-timeline" href="https://twitter.com/CinarogluLab?ref_src=twsrc%5Etfw">Tweets by CinarogluLab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
