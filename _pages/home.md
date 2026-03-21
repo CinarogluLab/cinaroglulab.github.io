@@ -1,32 +1,42 @@
 ---
 title: "CinarogluLab"
 layout: homelay
-excerpt: "Laboratory for Molecular Modeling & Drug Design"
+excerpt: "Laboratory for Molecular Modeling &amp; Drug Design"
 sitemap: false
 permalink: /
 ---
 
-<div style="margin-bottom: 20px;">
-  <p>
-    <b>CinarogluLab</b> at the <a href="https://ege.edu.tr/">Ege University</a> focuses on examining the structure and dynamics of biomolecular systems to gain insights into their functional mechanisms. Utilizing computational methods, we strive to decode the biophysical properties of biomolecules and use this information to design innovative chemical entities to combat human diseases. Our methodologies encompass a variety of physics-based techniques, including molecular dynamics simulations, enhanced sampling, and free energy calculations. Additionally, we integrate Markov State models, machine learning for pharmacological predictions, molecular docking, and homology/loop modelling.
-  </p>
-  
-  <p>
-    We concentrate on areas such as protein-ligand interactions, structure-based drug design, and the application of QSAR and bioinformatics techniques. A fundamental component of our research involves using molecular dynamics simulations to predict and analyze the three-dimensional structures of macromolecular complexes. This is crucial for understanding structure-activity relationships and assists in the design of effective ligands.
-  </p>
-
-  <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/refs/heads/main/images/groupphoto1.jpg" alt="Group Photo" style="width: 100%; border-radius: var(--radius-lg); margin-top: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-
-  <img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0006.png" alt="Biomolecular Dynamics" style="width: 100%; border-radius: var(--radius-lg); margin-top: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-</div>
-
-<p style="font-size: 1.1rem; font-weight: 500;">
-  👉 <b>See our <a href="{{ site.baseurl }}/research">Research page</a></b> for more details and up-to-date information!
+<p>
+  <b>CinarogluLab</b> at the <a href="https://ege.edu.tr/">Ege University</a> focuses on examining the structure and dynamics of biomolecular systems to gain insights into their functional mechanisms. Utilizing computational methods, we strive to decode the biophysical properties of biomolecules and use this information to design innovative chemical entities to combat human diseases. Our methodologies encompass a variety of physics-based techniques, including molecular dynamics simulations, enhanced sampling, and free energy calculations. Additionally, we integrate Markov State models, machine learning for pharmacological predictions, molecular docking, and homology/loop modelling.
 </p>
 
+<p>
+  We concentrate on areas such as protein-ligand interactions, structure-based drug design, and the application of QSAR and bioinformatics techniques. A fundamental component of our research involves using molecular dynamics simulations to predict and analyze the three-dimensional structures of macromolecular complexes. This is crucial for understanding structure-activity relationships and assists in the design of effective ligands.
+</p>
+
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/refs/heads/main/images/groupphoto1.jpg"
+     alt="Group Photo"
+     class="hero-photo">
+
+<img src="https://raw.githubusercontent.com/CinarogluLab/cinaroglulab.github.io/main/images/images-0006.png"
+     alt="Biomolecular Dynamics Visualization"
+     class="hero-photo">
+
+<a href="{{ site.baseurl }}/research" class="research-cta">
+  ⚗️ &nbsp;Explore our Research
+</a>
+
 <div class="affiliations">
-  <a href="https://ege.edu.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" alt="Ege"> </a>
-  <a href="https://biyomuhendislik.ege.edu.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" alt="Biyo"> </a>
-  <a href="https://www.truba.gov.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" alt="Truba"> </a>
-  <a href="https://www.uhem.itu.edu.tr/"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" alt="UHEM"> </a>
+  <a href="https://ege.edu.tr/">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ege.png" alt="Ege University">
+  </a>
+  <a href="https://biyomuhendislik.ege.edu.tr/">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/biyo.jpeg" alt="Bioengineering Dept.">
+  </a>
+  <a href="https://www.truba.gov.tr/">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/truba_logo.png" alt="TRUBA">
+  </a>
+  <a href="https://www.uhem.itu.edu.tr/">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uhem_logo.png" alt="UHEM">
+  </a>
 </div>

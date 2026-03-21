@@ -1,18 +1,19 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="main-navbar">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#modern-navbar-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/protein-emoji.png" alt="Logo" style="width: 30px; height: 30px; margin: 0 10px 0 0; display: inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/protein-emoji.png" alt="CinarogluLab logo" class="brand-logo">
         CinarogluLab
       </a>
     </div>
-    <div class="collapse navbar-collapse" id="modern-navbar-collapse">
+
+    <div class="collapse navbar-collapse" id="site-nav">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
@@ -24,3 +25,17 @@
     </div>
   </div>
 </nav>
+
+<!-- Navbar scroll-shadow enhancement -->
+<script>
+  (function() {
+    var nav = document.getElementById('main-navbar');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 40) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    }, { passive: true });
+  })();
+</script>

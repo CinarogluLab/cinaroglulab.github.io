@@ -1,26 +1,49 @@
-<div id="footer" class="panel">
+<footer id="footer">
   <div class="panel-footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-4">
-          <p>&copy; 2024 Laboratory for Molecular Modeling & Drug Discovery. Site made with <a href="https://jekyllrb.com">Jekyll</a> and uses <a href="http://www.getbootstrap.com">Bootstrap</a> and <a href="http://www.bootswatch.com">Bootswatch</a>.</p>
-          <p>We are part of the <a href="https://biyomuhendislik.ege.edu.tr/">Department of Bioengineering</a> at the <a href="https://ege.edu.tr/">Ege University</a>.</p>
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <!-- Col 1: About -->
+        <div>
+          <div class="footer-brand">CinarogluLab</div>
+          <p>Laboratory for Molecular Modeling &amp; Drug Discovery at <a href="https://ege.edu.tr/">Ege University</a>.</p>
+          <p>We decode the biophysical properties of biomolecules to design novel therapies.</p>
         </div>
-     <div class="col-sm-4 text-center"> 
-       <a href="https://twitter.com/CinarogluLab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CinarogluLab</a>
-       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <!-- Col 2: Links -->
+        <div>
+          <div class="footer-label">Navigation</div>
+          <p><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></p>
+          <p><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></p>
+          <p><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></p>
+          <p><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></p>
+          <p><a href="{{ site.url }}{{ site.baseurl }}/software">Software</a></p>
+          <p><a href="{{ site.url }}{{ site.baseurl }}/openings">Vacancies</a></p>
+        </div>
+
+        <!-- Col 3: Contact -->
+        <div>
+          <div class="footer-label">Contact</div>
+          <p>
+            Dr. <a href="https://suleymanselim.github.io">Süleyman Selim Çınaroğlu</a><br>
+            Department of Bioengineering<br>
+            Ege University, 35040 Bornova / İzmir<br>
+            (<a href="https://maps.app.goo.gl/fd8g18iqoH2usBfh6">Maps</a> · <a href="https://ege.edu.tr/tr-8187/merkez_yerleske_haritasi.html">Directions</a>)
+          </p>
+          <p>
+            <a href="https://twitter.com/CinarogluLab" target="_blank" rel="noopener">𝕏 @CinarogluLab</a>
+          </p>
+        </div>
+
       </div>
-        <div class="col-sm-4">
-          <b><i>Contact</i></b>:<br />
-          Dr. <a href="https://suleymanselim.github.io">Süleyman Selim Çınaroğlu</a><br />
-          Erzene Mahallesi Ege Üniversitesi Merkez Yerleşkesi<br />
-          35040 Bornova/İzmir<br />
-          (<a href="https://maps.app.goo.gl/fd8g18iqoH2usBfh6">Maps</a>, <a href="https://ege.edu.tr/tr-8187/merkez_yerleske_haritasi.html">Directions</a>)
-        </div>
-      </div> 
+
+      <hr class="footer-divider">
+      <p class="footer-copy">
+        &copy; 2024 CinarogluLab · Ege University · Built with <a href="https://jekyllrb.com">Jekyll</a>
+      </p>
     </div>
   </div>
-</div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>

@@ -2,28 +2,38 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row" style="padding-top:10px;">
+
+  <!-- ── Left: Main content ──────────────────────────────────────────── -->
   <div class="col-md-8 col-sm-12">
     <div class="modern-hero">
       <div class="lab-title">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/protein-emoji.png" alt="Protein Logo" style="width: 60px; height: auto; margin:0;">
-        <h2>CinarogluLab at Ege University</h2>
+        <img src="{{ site.url }}{{ site.baseurl }}/images/protein-emoji.png"
+             alt="CinarogluLab logo" class="lab-title-logo">
+        <h2>CinarogluLab at&nbsp;Ege University</h2>
       </div>
-      <h3 class="lab-subtitle">Laboratory for Molecular Modeling & Drug Discovery</h3>
+      <h3 class="lab-subtitle">Laboratory for Molecular Modeling &amp; Drug Discovery</h3>
       {{ content }}
     </div>
   </div>
-  
+
+  <!-- ── Right: Sidebar ──────────────────────────────────────────────── -->
   <div class="col-md-4 col-sm-12">
     <div class="modern-card" id="newsid">
-      <h3 style="margin-top:0; color: var(--color-primary); font-family: var(--font-heading);">Latest News</h3>
+      <h3>📰 Latest News</h3>
       {% include news.html %}
     </div>
-    
+
     <div class="modern-card">
-      <h3 style="margin-top:0; color: var(--color-secondary); font-family: var(--font-heading);">Twitter Feed</h3>
-      <a class="twitter-timeline" data-height="400" href="https://twitter.com/CinarogluLab?ref_src=twsrc%5Etfw">Tweets by CinarogluLab</a> 
+      <h3>𝕏 Twitter Feed</h3>
+      <a class="twitter-timeline"
+         data-height="420"
+         data-theme="light"
+         href="https://twitter.com/CinarogluLab?ref_src=twsrc%5Etfw">
+        Tweets by CinarogluLab
+      </a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
+
 </div>
