@@ -3,91 +3,232 @@
 
 @import "bootstrap";
 
-img { margin-bottom: 24px;
-     margin-top: 17px;
-     margin-right: 24px;
-    border-radius:2%;
-}
+/* =========================================================================
+   Modern Design System Overrides
+   ========================================================================= */
 
+:root {
+  /* Color Palette */
+  --color-primary: #2563eb;
+  --color-primary-light: #3b82f6;
+  --color-secondary: #0ea5e9;
+  --color-accent: #f43f5e;
+  --color-text-main: #1e293b;
+  --color-text-muted: #64748b;
+  --color-bg: #f8fafc;
+  --color-bg-card: #ffffff;
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Utilities */
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --transition-fast: 0.2s ease;
+  --transition-slow: 0.4s ease;
+}
 
 body {
-	padding-top: 70px;
+  font-family: var(--font-body);
+  color: var(--color-text-main);
+  background-color: var(--color-bg);
+  padding-top: 100px; /* Space for fixed header */
+  line-height: 1.6;
+  font-size: 16px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+
+img {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+}
+
+/* =========================================================================
+   Glassmorphic Header Override
+   ========================================================================= */
+
+.navbar-default {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  padding: 10px 0;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--color-primary) !important;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-text-main) !important;
+  padding: 15px 20px;
+  transition: all var(--transition-fast);
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: var(--color-primary) !important;
+  background: rgba(37, 99, 235, 0.05);
+  transform: translateY(-2px);
+}
+
+/* =========================================================================
+   Home Layout
+   ========================================================================= */
+
+.modern-hero {
+  background: linear-gradient(135deg, rgba(37,99,235,0.05) 0%, rgba(14,165,233,0.05) 100%);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  margin-bottom: 40px;
+  border: 1px solid rgba(255,255,255,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation: fadeUp var(--transition-slow) forwards;
+}
+
+.modern-hero img {
+  border-radius: var(--radius-lg);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform var(--transition-fast);
+}
+
+.modern-hero img:hover {
+  transform: scale(1.02);
+}
+
+.lab-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.lab-title h2 {
+  margin: 0;
+  font-size: 2.2rem;
+  background: -webkit-linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lab-subtitle {
+  color: var(--color-accent);
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.modern-card {
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  margin-bottom: 25px;
+  border: 1px solid rgba(0,0,0,0.02);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.modern-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+}
+
+.affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: var(--radius-md);
+  box-shadow: inset 0 2px 10px rgba(0,0,0,0.02);
+}
+
+.affiliations img {
+  margin: 0;
+  max-height: 60px;
+  width: auto;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+}
+
+.affiliations img:hover {
+  opacity: 1;
+}
+
+/* =========================================================================
+   Animations
+   ========================================================================= */
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================================
+   Typography & Specific fixes
+   ========================================================================= */
 
 figcaption {
-    text-align: right;
-    margin-top: -20px;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--color-text-muted);
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
-
-
-
-/* Top navigation bar */
-
 
 p.byline {
-	text-align: center;
-	font-size: 18px;
-	line-height: 36px;
-	margin-top: -24px;
-	margin-bottom: 48px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  margin-bottom: 40px;
 }
 
-
-pubtit {
-	font-weight: bold;
-}
-
-firstp {
-}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1000px; /* or 950px */
-}
-
-/* Home, News */
-#newsid p {
-	text-align: left;
-}
-
-#homeidtmp h1 {
-	text-align: center;
-}
-
-#newsid img {
-	margin-top: 6px;
-	margin-bottom: 6px;
-}
-
-/* Team & Publications */
+/* Compatibility with old ids and classes so it doesn't profoundly break other pages */
+#newsid img { margin-top: 6px; margin-bottom: 6px; }
 #gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
+#homeid img { margin: 0 0 0 0; }
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
-#gridid .row { margin-bottom: 24px; }
 
-
-/* Grid overrides */
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
-.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-	padding-left: 16px;
-	padding-right: 16px;
-}
-
-/* Grid overrides */
-.col-sm-4 {
-	padding-left: 16px;
-	padding-right: 16px;
-}
-
-
-/* Carusel */
-
-.carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+/* End of CSS */
