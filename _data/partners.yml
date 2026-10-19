@@ -1,0 +1,13 @@
+# Logos live in images/logopic/.
+- name: Ege University
+  url: https://ege.edu.tr/
+  logo: ege.png
+- name: Bioengineering Dept.
+  url: https://biyomuhendislik.ege.edu.tr/
+  logo: biyo.jpeg
+- name: TRUBA
+  url: https://www.truba.gov.tr/
+  logo: truba_logo.png
+- name: UHEM
+  url: https://www.uhem.itu.edu.tr/
+  logo: uhem_logo.png

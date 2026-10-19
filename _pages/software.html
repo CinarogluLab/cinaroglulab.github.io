@@ -1,0 +1,31 @@
+---
+layout: default
+title: Software
+permalink: /software/
+---
+<section class="page">
+  <div class="page-intro">
+    <span class="eyebrow">Software</span>
+    <h1 class="display">Software</h1>
+  </div>
+
+  {%- for group in site.data.software %}
+  <div class="stack">
+    <h3 style="font-size: 30px;">{{ group.group }}</h3>
+    <div class="card-grid card-grid-wide" style="gap: 24px;">
+      {%- for s in group.items %}
+      {%- assign url_parts = s.url | split: '/' %}
+      <a href="{{ s.url }}" target="_blank" rel="noopener" class="card blueprint">
+        <div class="card-top" style="align-items: baseline;">
+          <span class="card-title card-title-lg">{{ s.name }}</span>
+          <span class="role">↗</span>
+        </div>
+        <span class="card-body" style="font-size: 15px;">{{ s.description }}</span>
+        <span class="card-meta">{{ url_parts[2] }}</span>
+        {% include corners.html %}
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>

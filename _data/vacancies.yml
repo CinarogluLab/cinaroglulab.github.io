@@ -1,0 +1,16 @@
+# `open: true` shows an "Open" tag; `note` may contain HTML.
+positions:
+  - kicker: Master's · Scholarship
+    title: TÜBİTAK 3501 project
+    open: true
+    body: We are looking for master’s students to join our TÜBİTAK 3501 project as scholarship holders.
+  - kicker: Postdoctoral Research Associates
+    title: Postdocs
+    open: false
+    body: Our group currently does not have an opening for a postdoc.
+    note: <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/news/msca-opens-eu417-million-call-for-postdoctoral-fellowships" target="_blank" rel="noopener">Marie Skłodowska-Curie Actions</a> opens €417 million call for Postdoc Fellowships. The deadline to apply is 11 September 2024.
+
+apply_documents:
+  - CV
+  - Cover letter
+  - Reference contact(s)

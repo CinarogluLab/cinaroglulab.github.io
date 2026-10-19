@@ -1,0 +1,33 @@
+# Site settings — restart `jekyll serve` after editing this file.
+title: Laboratory for Molecular Modeling & Drug Discovery
+short_title: CinarogluLab
+affiliation: Ege University
+description: >
+  Laboratory for Molecular Modeling & Drug Discovery at Ege University focuses on
+  computational molecular simulations of biological systems and computer-aided drug design.
+email: sselimc@gmail.com
+url: https://cinaroglulab.github.io
+baseurl: ""
+lang: en
+
+google_analytics: G-K3CKDLXBSH
+twitter: CinarogluLab
+pi_homepage: https://suleymanselim.github.io
+
+# Content pages live in _pages/ (each sets its own permalink).
+include:
+  - _pages
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

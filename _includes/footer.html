@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="footer-grid wrap">
+    <div class="footer-col">
+      <span class="footer-brand">{{ site.short_title }}</span>
+      <p class="footer-muted">Laboratory for Molecular Modeling &amp; Drug Discovery at <a href="https://ege.edu.tr/">Ege University</a>. We decode the biophysical properties of biomolecules to design novel therapies.</p>
+    </div>
+    <nav class="footer-col" aria-label="Footer">
+      <span class="footer-heading">Navigation</span>
+      {% include nav-links.html %}
+    </nav>
+    <div class="footer-col">
+      <span class="footer-heading">Contact</span>
+      <span>Dr. <a href="{{ site.pi_homepage }}">{{ site.data.team.pi.name }}</a></span>
+      <span class="footer-muted">Department of Bioengineering<br>Ege University, 35040 Bornova / İzmir</span>
+      <span class="footer-inline">
+        <a href="https://maps.app.goo.gl/fd8g18iqoH2usBfh6">Maps</a>
+        <a href="https://ege.edu.tr/tr-8187/merkez_yerleske_haritasi.html">Directions</a>
+        <a href="https://twitter.com/{{ site.twitter }}">𝕏 @{{ site.twitter }}</a>
+      </span>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">© {{ site.time | date: '%Y' }} {{ site.short_title }} · {{ site.affiliation }}</div>
+</footer>

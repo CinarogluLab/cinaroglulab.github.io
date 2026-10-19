@@ -1,0 +1,54 @@
+# Photos live in images/teampic/.
+pi:
+  name: Süleyman Selim Çınaroğlu
+  role: Asst. Prof.
+  photo: SSC.jpg
+  homepage: https://suleymanselim.github.io
+  education:
+    - degree: B.Sc.
+      field: Molecular Biology and Genetics
+      institution: Istanbul University
+      url: https://www.istanbul.edu.tr
+    - degree: M.Sc.
+      field: Medical Biotechnology
+      institution: Acıbadem University
+      url: https://www.acibadem.edu.tr
+      advisor: Prof. Emel Timucin
+      advisor_url: https://timucinlab.com/
+    - degree: Ph.D.
+      field: Biochemistry
+      institution: University of Oxford
+      url: https://www.bioch.ox.ac.uk/
+      advisor: Prof. Phil Biggin
+      advisor_url: https://www.bioch.ox.ac.uk/research/biggin
+    - degree: Postdoc
+      institution: University of California, Irvine
+      url: https://uci.edu/
+      advisor: Prof. David Mobley
+      advisor_url: https://mobleylab.org/
+
+students:
+  - name: İpek Sarıbal
+    role: M.Sc. Student
+    education: B.Sc. Molecular Biology and Genetics, Mugla Sıtkı Kocman University
+    photo: ipek.jpg
+  - name: Ege Altun
+    role: M.Eng. Student
+    education: B.Eng. Bioengineering, Ege University
+    photo: ege_altun.jpg
+  - name: Asude Sezer
+    role: M.Eng. Student
+    education: B.Eng. Bioengineering, Ege University
+    photo: asude.jpeg
+  - name: Birsen Yurtdaş
+    role: B.Eng. Student
+    photo: birsen.jpg
+  - name: Ece Yiğit
+    role: B.Eng. Student
+    photo: ece.jpg
+  - name: Hatice Zülal Bulut
+    role: B.Eng. Student
+    photo: zulal.jpg
+  - name: Rojin Alpaslan
+    role: B.Eng. Student
+    photo: rojin.jpg

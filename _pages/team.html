@@ -1,0 +1,65 @@
+---
+layout: default
+title: Team
+permalink: /team/
+---
+{%- assign pi = site.data.team.pi -%}
+<section class="page">
+  <div class="page-intro">
+    <span class="eyebrow">Team</span>
+    <h1 class="display">Group Members</h1>
+    <p class="lede">We are often looking for new PhD students, Postdocs, Professionals and Master students to join the team <a href="{{ '/vacancies/' | relative_url }}">(see openings)</a>!</p>
+  </div>
+
+  <div class="stack">
+    <h6>Principal Investigator</h6>
+    <div class="pi blueprint">
+      <figure class="pi-photo blueprint duotone frame ratio-4x5">
+        <img src="{{ '/images/teampic/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}">
+        {% include corners.html %}
+      </figure>
+      <div class="pi-info">
+        <div>
+          <h2 class="pi-name">{{ pi.name }}</h2>
+          <span class="role">{{ pi.role }}</span>
+        </div>
+        <div class="edu">
+          {%- for e in pi.education %}
+          <div class="edu-row">
+            <span class="edu-degree">{{ e.degree }}</span>
+            <span>{% if e.field %}{{ e.field }} · {% endif %}<a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.institution }}</a>{% if e.advisor %} · with <a href="{{ e.advisor_url }}" target="_blank" rel="noopener">{{ e.advisor }}</a>{% endif %}</span>
+          </div>
+          {%- endfor %}
+        </div>
+        <a href="{{ pi.homepage }}" target="_blank" rel="noopener" class="btn btn-secondary">Personal page ↗</a>
+      </div>
+      {% include corners.html %}
+    </div>
+  </div>
+
+  <div class="stack">
+    <h6>Students</h6>
+    <div class="people">
+      {%- for s in site.data.team.students %}
+      <div class="person">
+        <figure class="blueprint duotone frame ratio-1x1">
+          <img src="{{ '/images/teampic/' | append: s.photo | relative_url }}" alt="{{ s.name }}" loading="lazy">
+          {% include corners.html %}
+        </figure>
+        <div class="person-info">
+          <span class="person-name">{{ s.name }}</span>
+          <span class="role">{{ s.role }}</span>
+          {%- if s.education %}<span class="person-edu">{{ s.education }}</span>{% endif %}
+        </div>
+      </div>
+      {%- endfor %}
+      <a href="{{ '/vacancies/' | relative_url }}" class="person">
+        <div class="join-box blueprint ratio-1x1"><span aria-hidden="true">+</span>{% include corners.html %}</div>
+        <div class="person-info">
+          <span class="person-name">This could be you!</span>
+          <span class="role">See openings for more info →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

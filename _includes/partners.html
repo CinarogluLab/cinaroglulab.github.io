@@ -1,0 +1,10 @@
+<section class="partners" aria-labelledby="partners-title">
+  <h6 id="partners-title">Affiliations &amp; infrastructure</h6>
+  <div class="cells">
+    {%- for p in site.data.partners %}
+    <a href="{{ p.url }}" target="_blank" rel="noopener" title="{{ p.name }}">
+      <img src="{{ '/images/logopic/' | append: p.logo | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    </a>
+    {%- endfor %}
+  </div>
+</section>

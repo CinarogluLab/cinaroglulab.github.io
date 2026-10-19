@@ -1,0 +1,30 @@
+---
+layout: default
+title: News
+permalink: /news/
+redirect_from: /allnews.html
+---
+<section class="page">
+  <div class="page-intro">
+    <span class="eyebrow">News</span>
+    <h1 class="display">News</h1>
+  </div>
+
+  <div class="news-list news-list-full">
+    {%- for item in site.data.news %}
+    <article class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <div class="news-body">
+        <span>{{ item.text }}</span>
+        <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.link_label }} ↗</a>
+      </div>
+      {%- if item.image %}
+      <figure class="blueprint frame-fit">
+        <img src="{{ item.image }}" alt="" loading="lazy">
+        {% include corners.html %}
+      </figure>
+      {%- endif %}
+    </article>
+    {%- endfor %}
+  </div>
+</section>

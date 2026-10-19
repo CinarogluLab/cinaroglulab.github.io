@@ -1,0 +1,38 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+<section class="page">
+  <div class="page-head">
+    <div class="stack">
+      <span class="eyebrow">Publications · Highlights</span>
+      <h1 class="display">Publications</h1>
+    </div>
+    <div class="stack" style="gap: 8px;">
+      <span class="role" style="font-size: 13px; color: var(--color-neutral-700);">For a full list, go to</span>
+      <div class="btn-row">
+        <a href="https://scholar.google.com.tr/citations?user=jCq1QN8AAAAJ&amp;hl" target="_blank" rel="noopener" class="btn btn-secondary">Google Scholar ↗</a>
+        <a href="https://www.webofscience.com/wos/author/record/37523" target="_blank" rel="noopener" class="btn btn-secondary">Web of Science ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-list">
+    {%- for p in site.data.publications %}
+    <article class="pub">
+      <figure class="blueprint frame-fit">
+        <img src="{{ '/images/pubpic/' | append: p.image | relative_url }}" alt="" loading="lazy">
+        {% include corners.html %}
+      </figure>
+      <div class="pub-text">
+        <span class="pub-year">{{ p.year }}</span>
+        <h3>{{ p.title }}</h3>
+        <p class="pub-abstract">{{ p.abstract }}</p>
+        <span class="pub-authors">{{ p.authors }}</span>
+        <a class="pub-journal" href="{{ p.doi }}" target="_blank" rel="noopener">{{ p.journal }} ↗</a>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>

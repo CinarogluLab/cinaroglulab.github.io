@@ -1,0 +1,98 @@
+---
+layout: default
+permalink: /
+---
+<script>
+  // Old single-page links (/#team, /#research …) → their real pages.
+  (function (h) { if (/^#(research|team|publications|vacancies|software|news)$/.test(h)) location.replace('{{ "/" | relative_url }}' + h.slice(1) + '/'); })(location.hash);
+</script>
+
+<section class="page page-home">
+  <div class="split">
+    <div class="stack">
+      <span class="eyebrow">CinarogluLab at Ege University · Department of Bioengineering</span>
+      <h1 class="display display-xl">Laboratory for Molecular Modeling &amp; Drug Discovery</h1>
+      <p class="lede"><strong>CinarogluLab</strong> at the <a href="https://ege.edu.tr/">Ege University</a> focuses on examining the structure and dynamics of biomolecular systems to gain insights into their functional mechanisms. Utilizing computational methods, we strive to decode the biophysical properties of biomolecules and use this information to design innovative chemical entities to combat human diseases.</p>
+      <div class="actions">
+        <a href="{{ '/research/' | relative_url }}" class="btn btn-lg btn-primary blueprint">Explore our research{% include corners.html %}</a>
+        <a href="{{ '/vacancies/' | relative_url }}" class="btn btn-lg btn-secondary">Join the lab</a>
+      </div>
+    </div>
+    <figure class="blueprint duotone frame ratio-4x3">
+      <img src="{{ '/images/images-0006.png' | relative_url }}" alt="Biomolecular dynamics visualization">
+      {% include corners.html %}
+    </figure>
+  </div>
+
+  <div class="stack">
+    <h6>Our methodologies</h6>
+    <div class="cells">
+      {%- for m in site.data.methods %}
+      <div class="cell">
+        <span class="cell-num">{% include num.html n=forloop.index %}</span>
+        <span class="cell-label">{{ m }}</span>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+
+  <div class="split">
+    <figure class="blueprint duotone frame ratio-3x2">
+      <img src="{{ '/images/groupphoto1.jpg' | relative_url }}" alt="CinarogluLab group photo" loading="lazy">
+      {% include corners.html %}
+    </figure>
+    <div class="stack">
+      <h2>Focus areas</h2>
+      <p class="prose">We concentrate on areas such as protein-ligand interactions, structure-based drug design, and the application of QSAR and bioinformatics techniques. A fundamental component of our research involves using molecular dynamics simulations to predict and analyze the three-dimensional structures of macromolecular complexes. This is crucial for understanding structure-activity relationships and assists in the design of effective ligands.</p>
+      <a href="{{ '/team/' | relative_url }}" class="btn btn-ghost" style="align-self: flex-start; padding-left: 0;">Meet the team →</a>
+    </div>
+  </div>
+
+  <div class="stack">
+    <div class="section-head">
+      <h2>Research</h2>
+      <a href="{{ '/research/' | relative_url }}" class="btn btn-ghost">All research →</a>
+    </div>
+    <div class="card-grid">
+      {%- for a in site.data.research %}
+      <a href="{{ '/research/' | relative_url }}" class="card blueprint">
+        <span class="card-kicker">{% include num.html n=forloop.index %}</span>
+        <span class="card-title">{{ a.title }}</span>
+        <span class="card-body">{{ a.lede }}</span>
+        {% include corners.html %}
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="stack">
+      <div class="section-head">
+        <h2>Latest news</h2>
+        <a href="{{ '/news/' | relative_url }}" class="btn btn-ghost">See all news →</a>
+      </div>
+      <div class="news-list">
+        {%- for item in site.data.news limit: 2 %}
+        <article class="news-item">
+          <span class="news-date">{{ item.date }}</span>
+          <div class="news-body">
+            <span>{{ item.text }}</span>
+            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.link_label }} ↗</a>
+          </div>
+        </article>
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="feed blueprint">
+      <div class="feed-head">
+        <h6>𝕏 Feed</h6>
+        <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">@{{ site.twitter }} ↗</a>
+      </div>
+      <div class="feed-body">
+        <a class="twitter-timeline" data-height="420" data-chrome="noheader nofooter transparent" href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw">Posts by @{{ site.twitter }}</a>
+      </div>
+      {% include corners.html %}
+    </div>
+  </div>
+</section>
+<script async src="https://platform.twitter.com/widgets.js"></script>

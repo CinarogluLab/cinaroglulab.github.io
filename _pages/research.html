@@ -1,0 +1,39 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+<section class="page page-research">
+  <div class="page-intro">
+    <span class="eyebrow">Research</span>
+    <h1 class="display">Research in Molecular Modeling &amp; Drug Discovery</h1>
+    <p class="lede" style="font-size: 20px; color: var(--color-neutral-800);">Our lab harnesses the power of computational tools to unravel the mysteries of biomolecular dynamics and accelerate the discovery of therapeutic agents.</p>
+  </div>
+
+  {%- for a in site.data.research %}
+  <article class="area ruled">
+    <div class="area-text">
+      <span class="area-num">{% include num.html n=forloop.index %}</span>
+      <h2>{{ a.title }}</h2>
+      {%- for p in a.paragraphs %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+      {%- if a.link %}
+      <a href="{{ a.link.url }}" target="_blank" rel="noopener">{{ a.link.label }} ↗</a>
+      {%- endif %}
+      <div class="refs">
+        <h6>Selected references</h6>
+        {%- for r in a.references %}
+        <span>{{ r }}</span>
+        {%- endfor %}
+      </div>
+    </div>
+    <figure class="area-figure blueprint duotone frame-fit">
+      <img src="{% if a.image contains '://' %}{{ a.image }}{% else %}{{ a.image | relative_url }}{% endif %}" alt="{{ a.title }}" loading="lazy">
+      {% include corners.html %}
+    </figure>
+  </article>
+  {%- endfor %}
+
+  <p class="prose">Our research highlights are summarized in the publications listed at <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
+</section>
